@@ -1,9 +1,9 @@
 package com.collegemanagement.college_management.repository;
 
+import com.collegemanagement.college_management.model.Attendance;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.collegemanagement.college_management.model.Attendance;
 
 @Repository
-public interface AttendanceRepository extends JpaRepository<Attendance, Long> {
+public interface AttendanceRepository extends JpaRepository<Attendance, String> {
 }
